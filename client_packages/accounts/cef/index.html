@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./scripts/script.js"></script>
+</head>
+
+<body>
+    <div class="login-page">
+        <div class="form">
+            <form class="register-form" id="register">
+                <input id="reg-login" type="text" placeholder="login" />
+                <input id="reg-password" type="password" placeholder="password" />
+                <input id="reg-password-confirm" type="password" placeholder="confirm password" />
+                <button>create</button>
+                <p class="message">Already registered? <a href="#" onclick="showLogin()">Sign In</a></p>
+            </form>
+            <form class="login-form" id="login">
+                <input id="log-login" type="text" placeholder="username" />
+                <input id="log-password" type="password" placeholder="password" />
+                <button type="button" onclick="loginAttempt()">login</button>
+                <p class="message">Not registered? <a href="#" onclick="showRegister()">Create an account</a></p>
+            </form>
+        </div>
+    </div>
+    <div id="error">
+    </div>
+</body>
+
+</html>
