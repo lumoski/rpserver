@@ -1,0 +1,8 @@
+/bin
+/client_packages/*.listcache
+/dotnet
+/node_modules
+/plugins
+/*.dll
+/*.gz
+/*.exe
