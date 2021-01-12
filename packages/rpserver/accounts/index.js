@@ -14,3 +14,11 @@ mp.events.add('packagesLoaded', () => {
         console.log(`Connected as id ${DB.threadId}`);
     });
 });
+
+mp.events.addCommand('login', (player, fText, login, password) => {
+
+});
+
+mp.events.addCommand('register', (player, fText, login, password, rpassword) => {
+    
+});
